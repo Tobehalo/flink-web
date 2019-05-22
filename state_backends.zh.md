@@ -24,7 +24,7 @@ under the License.
 
 Flink 提供了不同的 `State Backends`，用于指定存储状态的方式和位置。
 
-状态可以位于Java堆或堆中。根据你的 `State Backend`，Flink 还可以管理应用程序的状态，这意味着 Flink 处理内存管理（如果需要，可能会溢出到磁盘），以允许应用程序保持大体量的状态。默认情况下，可通过配置文件 flink-conf.yaml 确定所有 flink job 的State Backend。
+状态可以位于Java堆或堆中。根据你的 `State Backend`，Flink 还可以管理应用程序的状态，这意味着 Flink 处理内存管理（如果需要，可能会溢出到磁盘），以允许应用程序保持大体量的状态。默认情况下，可通过配置文件 `flink-conf.yaml` 确定所有 `flink job` 的 `State Backend`。
 
 但是，默认的 `State Backend` 可以被独立的 job 覆盖，如下所示。
 

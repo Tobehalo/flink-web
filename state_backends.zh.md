@@ -28,7 +28,7 @@ Flink 提供了不同的 `State Backends`，用于指定存储状态的方式和
 
 但是，默认的 `State Backend` 可以被独立的 job 覆盖，如下所示。
 
-有关可用 `State Backend` 及其优势、限制和配置参数的详细信息，请参阅 [部署和操作](site.baseurl/ops/state/state_backends.html) 中的相应部分。
+有关 `State Backend` 使用及其优势、限制和配置参数的详细信息，请参阅 [部署和操作](site.baseurl/ops/state/state_backends.html) 中的相应部分。
 
 <div class="codetabs" markdown="1">
 <div data-lang="java" markdown="1">
